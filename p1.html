@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>BMW Models</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: white;
+    color: black;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background: white;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-left img {
+    width: 55px;
+}
+
+.header-left p {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.menu button {
+    font-size: 22px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* HERO 3D */
+.hero-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    perspective: 1200px;
+}
+
+.hero {
+    width: 85%;
+    height: 420px;
+        border-radius: 10px;
+    background: url("https://images.unsplash.com/photo-1617814076367-b759c7d7e738")
+        center/cover no-repeat;
+
+    }
+/* TITLE */
+.title-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.title-section h1 {
+    font-size: 46px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.title-section button {
+    padding: 12px 28px;
+    font-size: 16px;
+    border: 1px solid black;
+    background: transparent;
+    cursor: pointer;
+}
+
+/* LANGUAGES */
+.languages {
+    background: black;
+    color: white;
+    padding: 30px 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.languages span {
+    margin: 0 15px;
+    opacity: 0.8;
+}
+
+/* FOOTER */
+.bmw-section {
+    background: #111;
+    color: white;
+    padding: 50px 40px;
+}
+
+.bmw-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-column {
+    width: 30%;
+}
+
+.footer-column h2 {
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.footer-column p {
+    color: #ccc;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.footer-column p:hover {
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    background: #f2f2f2;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="header-left">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/BMW.svg">
+        <p>Sheer Driving Pleasure</p>
+    </div>
+
+    <a href="search.html">
+        <div class="menu"><button>☰</button></div>
+    </a>
+</header>
+
+<!-- 3D HERO -->
+<div class="hero-container">
+    <div class="hero" id="hero"></div>
+</div>
+
+<section class="title-section">
+    <h1>ALL BMW MODELS</h1>
+    <a href="galary.html">
+    <button>Find your BMW</button>
+   </a>
+</section>
+
+<div class="languages">
+    <span>English</span>
+    <span>Deutsch</span>
+    <span>Italiano</span>
+    <span>Français</span>
+</div>
+
+<div class="bmw-section">
+    <div class="bmw-footer">
+        <div class="footer-column">
+            <h2>Quick links</h2>
+            <p>Home</p>
+            <p>BMW in your country</p>
+            <p>BMW Group Careers</p>
+            <p>REACH regulation </p>
+             <p>Parking Test Car </p>
+             <p>Compatibility Check </p>
+             <P> Cooperation Test Car </P>
+<p>EU Detergents Regulation </p>
+
+        </div>
+
+        <div class="footer-column">
+            <h2>More BMW websites</h2>
+            <p>BMW M</p>
+            <p>BMW Welt</p>
+            <p>BMW Group</p>
+            <P>BMW Group CLASSIC </P>
+            <P>BMW Group Cultural Engagement </P>
+             <p>BMW connectedDrive</p>
+                     </div>
+
+        <div class="footer-column">
+            <h2>BMW .COM</h2>
+            <p>Contacts</p>
+            <p>Cookies</p>
+            <p>Imprint</p>  
+            <p>Accessibility </p>
+            <p>Legal Notice</p>
+
+            
+        </div>
+       <div class="footer-column">
+            <h2> Visit us on</h2>
+            <p>Facebook</p>
+            <p>X</p>
+            <p>Instagram</p>
+            <p> You tube </p>
+            
+        </div>
+
+       
+    </div>
+</div>
+
+<footer>
+    © 2026 BMW Front Page UI – Student Project
+</footer>
+
